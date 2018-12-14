@@ -24,13 +24,13 @@ Grouping by each of these fields in Crystal Reports, then indenting each nexct-d
 
 The data_init prefixed files are simply for the optional pre-population of some data for a demo.
 
-'Demo.sql' creates a SQL database called Demo.
+`Demo.sql` creates a SQL database called Demo.
 
-'dbo.fnChildDepth_parent_child_lookup' creates a SQL function that given a node id - will return the depth (from root; parent =0)
+`dbo.fnChildDepth_parent_child_lookup` creates a SQL function that given a node id - will return the depth (from root; parent =0)
 
-'dbo.fnGroupDesc_parent_child_lookup' created the function that is used as a field in the base report view. This is the field to Group By in Crystal Reports.
+`dbo.fnGroupDesc_parent_child_lookup` created the function that is used as a field in the base report view. This is the field to Group By in Crystal Reports.
 
-'parent_child_lookup' creates a table with.. well a parent-child relationship fields. (ID and parent_ID)
+`parent_child_lookup` creates a table with.. well a parent-child relationship fields. (ID and parent_ID)
 
 The two rpt files are of course Crystal Reports.
 
